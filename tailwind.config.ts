@@ -21,11 +21,22 @@ const config: Config = {
       'gray': '#bfbfbf',
       'grayish-violet': '#9e9aa7',
       'very-dark-blue': ' #35323e',
-      'very-dark-violet': '#232127'
+      'very-dark-violet': '#232127',
+      'white': '#fff',
     },
     fontFamily: {
       'sans': ['Poppins', 'sans-serif'],
     },
+    fontSize: {
+      sm: '0.8rem',
+      base: '0.938rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+      'x18': '1.125rem'
+    }
   },
   plugins: [],
 }
