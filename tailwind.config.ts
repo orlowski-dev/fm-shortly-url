@@ -14,6 +14,18 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    colors: {
+      'cyan': '#2acfcf',
+      'dark-violet': ' #3b3054',
+      'red': '#f46262',
+      'gray': '#bfbfbf',
+      'grayish-violet': '#9e9aa7',
+      'very-dark-blue': ' #35323e',
+      'very-dark-violet': '#232127'
+    },
+    fontFamily: {
+      'sans': ['Poppins', 'sans-serif'],
+    },
   },
   plugins: [],
 }
