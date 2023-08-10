@@ -19,6 +19,30 @@
   grid-area: contentArea;
 }
 
+.short-url-section .bg {
+  height: calc(100% - 101px);
+  bottom: 0;
+}
+
+.short-url-section .form-area {
+  background-image: url('../assets/bg/bg-shorten-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.short-url-section label.error .error {
+  display: block;
+}
+
+.short-url-section .error input {
+  border-color: #f46262;
+}
+
+.short-url-section .error input::placeholder {
+  color: #f46262;
+  opacity: .25;
+}
+
 @media screen and (min-width: 768px) {
   .hero-section {
     grid-template-areas: "contentArea imageArea";
@@ -36,4 +60,23 @@
     left: calc(50% + 24px);
   }
 
+  .short-url-section .form-area {
+    background-image: url('../assets/bg/bg-shorten-desktop.svg');
+    background-size: auto 100%;
+    padding: 32px 44px;
+  }
+
+  .short-url-section .form-area form {
+    grid-template-columns: auto 188px;
+  }
+
+  .short-url-section .shorten-link {
+    align-items: center;
+    grid-template-columns: auto 103px;
+  }
+
+  .short-url-section .content {
+    align-items: center;
+    grid-template-columns: 40% 60%;
+  }
 }

@@ -16,9 +16,11 @@ const config: Config = {
     },
     colors: {
       'cyan': '#2acfcf',
+      'cyan-saturated': '#9AE3E3',
       'dark-violet': ' #3b3054',
       'red': '#f46262',
       'gray': '#bfbfbf',
+      'light-gray': '#EFF1F7',
       'grayish-violet': '#9e9aa7',
       'very-dark-blue': ' #35323e',
       'very-dark-violet': '#232127',
@@ -55,6 +57,11 @@ const config: Config = {
         lineHeight: '1.875rem',
         fontWeight: 500,
         letterSpacing: '.0077rem'
+      }],
+      'p16': ['1rem', {
+        lineHeight: '2.25rem',
+        letterSpacing: '.0075rem',
+        fontWeight: 500
       }]
     }
   },

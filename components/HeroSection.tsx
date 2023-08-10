@@ -12,7 +12,7 @@ export const HeroSection = () => (
         <LinkButton
           href="/"
           textContent="Get Started"
-          type="cyan-rounded"
+          type="cyan-rounded-max"
           customStyles="py-3 px-9"
         />
       </div>

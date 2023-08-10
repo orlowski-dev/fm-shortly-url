@@ -36,9 +36,9 @@ export const MainHeader = () => {
   const mobileNavRef = useRef<HTMLElement>(null)
 
   return (
-    <header className="main-header sticky top-0 left-0 bg-white transition-max-w z-50">
+    <header className="main-header sticky top-0 left-0 bg-white z-50">
       <div className="container p-6 flex items-center justify-between mx-auto">
-        <div className="left flex items-center gap-8">
+        <div className="left flex items-center gap-10">
           <Link href='/'>
             <img src="/brand/logo.svg" width={120} height={32} />
           </Link>
@@ -75,7 +75,7 @@ export const MainHeader = () => {
           <LinkButton
             href="/"
             textContent="Sign Up"
-            type="cyan-rounded"
+            type="cyan-rounded-max"
           />
         </div>
       </div>
@@ -100,7 +100,7 @@ export const MainHeader = () => {
               <LinkButton
                 href="/"
                 textContent="Sign Up"
-                type="cyan-rounded"
+                type="cyan-rounded-max"
                 display="block"
                 customStyles="py-3 text-x18"
               />
