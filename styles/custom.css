@@ -1,0 +1,39 @@
+.hero-section {
+  grid-template-areas:
+    "imageArea"
+    "contentArea";
+  grid-template-rows: minmax(337px, auto);
+  gap: 24px;
+  overflow: unset;
+}
+
+.hero-section .image-area {
+  grid-area: imageArea;
+  background-image: url('/illustrations/illustration-working.svg');
+  background-size: 511px 337px;
+  background-repeat: no-repeat;
+  background-position: left 24px center;
+}
+
+.hero-section .content-area {
+  grid-area: contentArea;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    grid-template-areas: "contentArea imageArea";
+    grid-template-rows: minmax(482px, auto);
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-section .image-area {
+    background-size: 733px 482px;
+    background-repeat: no-repeat;
+    height: 482px;
+    width: calc(50% - 24px);
+    position: absolute;
+    left: calc(50% + 24px);
+  }
+
+}

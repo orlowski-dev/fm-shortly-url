@@ -35,7 +35,27 @@ const config: Config = {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
-      'x18': '1.125rem'
+      'x18': '1.125rem',
+      'h1-d': ['5rem', {
+        lineHeight: '5.625rem',
+        fontWeight: 700,
+        letterSpacing: '-0.125rem'
+      }],
+      'h1-m': ['2.625rem', {
+        lineHeight: '3rem',
+        fontWeight: 700,
+        letterSpacing: '-0.0656rem'
+      }],
+      'p-d': ['1.375rem', {
+        lineHeight: '2.25rem',
+        fontWeight: 500,
+        letterSpacing: '.0094rem'
+      }],
+      'p-m': ['1.125rem', {
+        lineHeight: '1.875rem',
+        fontWeight: 500,
+        letterSpacing: '.0077rem'
+      }]
     }
   },
   plugins: [],

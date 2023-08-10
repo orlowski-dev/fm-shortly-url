@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -14,4 +18,10 @@
   z-index: -1;
   user-select: none;
   overflow: hidden;
+}
+
+button,
+a,
+img {
+  outline: none !important;
 }

@@ -36,9 +36,9 @@ export const MainHeader = () => {
   const mobileNavRef = useRef<HTMLElement>(null)
 
   return (
-    <header className="main-header sticky top-0 left-0 bg-white transition-max-w">
+    <header className="main-header sticky top-0 left-0 bg-white transition-max-w z-50">
       <div className="container p-6 flex items-center justify-between mx-auto">
-        <div className="left flex items-center gap-6">
+        <div className="left flex items-center gap-8">
           <Link href='/'>
             <img src="/brand/logo.svg" width={120} height={32} />
           </Link>
