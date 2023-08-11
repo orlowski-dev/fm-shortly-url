@@ -6,6 +6,7 @@ import Link from "next/link"
 import { usePathname } from 'next/navigation'
 import { LinkButton } from "./Buttons"
 import { useRef } from "react"
+import Image from "next/image"
 
 
 export const MainHeader = () => {
@@ -40,7 +41,7 @@ export const MainHeader = () => {
       <div className="container p-6 flex items-center justify-between mx-auto">
         <div className="left flex items-center gap-10">
           <Link href='/'>
-            <img src="/brand/logo.svg" width={120} height={32} />
+            <Image src="/brand/logo.svg" width={120} height={32} alt="logo" />
           </Link>
           {/* desktop nav */}
           <nav className="hidden md:block">
@@ -57,7 +58,7 @@ export const MainHeader = () => {
             aria-controls="mobile-nav"
             aria-haspopup='true'>
             <span className="visually-hidden">open menu</span>
-            <img
+            <Image
               src={menuIcon.src}
               alt="menu icon"
               height={menuIcon.height}

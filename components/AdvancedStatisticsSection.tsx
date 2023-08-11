@@ -1,5 +1,6 @@
 import { IStatisticData } from '@/data/interfaces'
 import { default as statisticsData } from '@/data/statisticsData.json'
+import Image from 'next/image'
 
 const Card = ({ icon, heading, content }: {
   icon: string,
@@ -8,7 +9,7 @@ const Card = ({ icon, heading, content }: {
 }) => (
   <article className='p-6 text-center relative bg-white rounded-md mt-[44px]'>
     <div className="img-container w-[88px] h-[88px] rounded-[50%] bg-dark-violet flex items-center justify-center mx-auto absolute">
-      <img src={icon} alt="icon" className="w-[40px] h-[40px]" />
+      <Image src={icon} alt="icon" width={40} height={40} />
     </div>
     <div className='grid gap-3 mt-[44px] mb-3'>
       <h3 className='text-h3-m text-very-dark-violet md:text-left'>{heading}</h3>

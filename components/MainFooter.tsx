@@ -5,6 +5,7 @@ import { LinkButton } from './Buttons'
 import { facebookIcon, instagramIcon, pinterestIcon, twitterIcon } from '@/assets/icons'
 import { ReactSVG } from 'react-svg'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const MainFooter = () => {
 
@@ -12,7 +13,7 @@ export const MainFooter = () => {
     <footer className="main-footer bg-very-dark-blue py-6">
       <div className="container grid justify-center p-6 mx-auto md:items-start">
         <div className="mb-12">
-          <img src="/brand/logo-white.svg" alt="logo" width={120} height={32} />
+          <Image src="/brand/logo-white.svg" alt="logo" width={120} height={32} />
         </div>
         <ul className='grid gap-9 text-center md:grid-cols-3 md:text-left md:first-letter:gap-12'>
           <li>
@@ -71,7 +72,7 @@ export const MainFooter = () => {
             </ul>
           </li>
         </ul>
-        <div className="social-links flex gap-6 items-start justify-center">
+        <div className="social-links flex gap-6 items-start justify-center mt-10 md:mt-0">
           <Link href='/' target='_blank'>
             <ReactSVG src={facebookIcon.src} desc='facebook icon' width={24} height={24} />
           </Link>

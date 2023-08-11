@@ -76,7 +76,7 @@
     grid-template-areas: "contentArea imageArea";
     grid-template-rows: minmax(482px, auto);
     align-items: center;
-    grid-template-columns: 60% calc(40% - 24px);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .hero-section .image-area {
@@ -85,7 +85,7 @@
     height: 482px;
     width: calc(50% - 24px);
     position: absolute;
-    left: calc(60%);
+    left: calc(50% + 24px);
   }
 
   .short-url-section .form-area {
