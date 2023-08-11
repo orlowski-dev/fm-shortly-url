@@ -26,7 +26,7 @@ const getButtonStyle = (type: string, custom: string | undefined, display = 'inl
       styles = cyan + ' rounded-md'
       break
     case 'cyan-rounded-max':
-      styles = cyan + ' rounded-3xl'
+      styles = cyan + ' rounded-[12.5rem]'
       break
     default:
       break

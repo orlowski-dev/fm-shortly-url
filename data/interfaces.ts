@@ -17,3 +17,10 @@ export interface IHistoryData {
   originalLink: string,
   fullShortLink: string
 }
+
+export interface IStatisticData {
+  id: number,
+  icon: string,
+  heading: string,
+  content: string
+}

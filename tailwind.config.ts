@@ -48,6 +48,29 @@ const config: Config = {
         fontWeight: 700,
         letterSpacing: '-0.0656rem'
       }],
+      'h2-d': ['3rem', {
+        lineHeight: '3rem',
+        fontWeight: 700,
+        letterSpacing: '-.0625rem'
+      }],
+      'h2-m': ['1.75rem', {
+        lineHeight: '3rem',
+        fontWeight: 700,
+        letterSpacing: '-0.0437rem'
+      }],
+      'h2-28-m': ['1.75rem', {
+        lineHeight: '3rem',
+        fontWeight: 700,
+        letterSpacing: '-0.0437rem'
+      }],
+      'h2-28-d': ['2.5rem', {
+        lineHeight: '3rem',
+        fontWeight: 700,
+        letterSpacing: '-.0625rem'
+      }],
+      'h3-m': ['1.375rem', {
+        fontWeight: 700,
+      }],
       'p-d': ['1.375rem', {
         lineHeight: '2.25rem',
         fontWeight: 500,
