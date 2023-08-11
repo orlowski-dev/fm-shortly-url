@@ -20,9 +20,10 @@ export const MainFooter = () => {
             <ul>
               <li className='text-[1rem] text-white mb-5'>Features</li>
               {
-                footerLinks['Features'].map((data: IFooterLink) => (
+                footerLinks['Features'].map((data: IFooterLink, index: number) => (
                   <li
                     className='mb-2'
+                    key={index}
                   ><LinkButton
                       type="no-bg"
                       href={data.link}
@@ -38,9 +39,10 @@ export const MainFooter = () => {
             <ul>
               <li className='text-[1rem] text-white mb-5'>Resources</li>
               {
-                footerLinks['Resources'].map((data: IFooterLink) => (
+                footerLinks['Resources'].map((data: IFooterLink, index: number) => (
                   <li
                     className='mb-2'
+                    key={index}
                   >
                     <LinkButton
                       type="no-bg"
@@ -57,9 +59,10 @@ export const MainFooter = () => {
             <ul>
               <li className='text-[1rem] text-white mb-5'>Company</li>
               {
-                footerLinks['Company'].map((data: IFooterLink) => (
+                footerLinks['Company'].map((data: IFooterLink, index: number) => (
                   <li
                     className='mb-2'
+                    key={index}
                   ><LinkButton
                       type="no-bg"
                       href={data.link}
