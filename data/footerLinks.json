@@ -1,0 +1,58 @@
+{
+  "Features": [
+    {
+      "id": 0,
+      "content": "Link Shortening",
+      "link": "/"
+    },
+    {
+      "id": 1,
+      "content": "Branded Links",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "content": "Analytics",
+      "link": "/"
+    }
+  ],
+  "Resources": [
+    {
+      "id": 0,
+      "content": "Blog",
+      "link": "/"
+    },
+    {
+      "id": 1,
+      "content": "Developers",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "content": "Support",
+      "link": "/"
+    }
+  ],
+  "Company": [
+    {
+      "id": 0,
+      "content": "About",
+      "link": "/"
+    },
+    {
+      "id": 1,
+      "content": "Our Team",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "content": "Careers",
+      "link": "/"
+    },
+    {
+      "id": 3,
+      "content": "Contact",
+      "link": "/"
+    }
+  ]
+}

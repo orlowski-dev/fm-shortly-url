@@ -24,3 +24,8 @@ export interface IStatisticData {
   heading: string,
   content: string
 }
+
+export interface IFooterLink {
+  content: string,
+  link: string,
+}

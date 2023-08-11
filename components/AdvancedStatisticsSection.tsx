@@ -6,7 +6,7 @@ const Card = ({ icon, heading, content }: {
   heading: string,
   content: string
 }) => (
-  <article className='p-6 text-center relative bg-white rounded-lg mt-[44px]'>
+  <article className='p-6 text-center relative bg-white rounded-md mt-[44px]'>
     <div className="img-container w-[88px] h-[88px] rounded-[50%] bg-dark-violet flex items-center justify-center mx-auto absolute">
       <img src={icon} alt="icon" className="w-[40px] h-[40px]" />
     </div>

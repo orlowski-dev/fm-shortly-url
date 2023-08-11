@@ -20,7 +20,7 @@ const getButtonStyle = (type: string, custom: string | undefined, display = 'inl
 
   switch (type) {
     case 'no-bg':
-      styles = 'text-grayish-violet'
+      styles = 'text-grayish-violet transition-color hover:text-cyan active:bg-cyan'
       break
     case 'cyan-rounded':
       styles = cyan + ' rounded-md'
